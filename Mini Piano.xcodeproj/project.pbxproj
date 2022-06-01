@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18DDC9DC2847958E00B2682A /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18DDC9D52847958D00B2682A /* D.wav */; };
+		18DDC9DD2847958E00B2682A /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18DDC9D62847958E00B2682A /* G.wav */; };
+		18DDC9DE2847958E00B2682A /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18DDC9D72847958E00B2682A /* F.wav */; };
+		18DDC9DF2847958E00B2682A /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18DDC9D82847958E00B2682A /* A.wav */; };
+		18DDC9E02847958E00B2682A /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18DDC9D92847958E00B2682A /* C.wav */; };
+		18DDC9E12847958E00B2682A /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18DDC9DA2847958E00B2682A /* B.wav */; };
+		18DDC9E22847958E00B2682A /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18DDC9DB2847958E00B2682A /* E.wav */; };
 		5F7EA3252847406500088674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7EA3242847406500088674 /* AppDelegate.swift */; };
 		5F7EA3272847406500088674 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7EA3262847406500088674 /* SceneDelegate.swift */; };
 		5F7EA3292847406500088674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7EA3282847406500088674 /* ViewController.swift */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18DDC9D52847958D00B2682A /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		18DDC9D62847958E00B2682A /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		18DDC9D72847958E00B2682A /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		18DDC9D82847958E00B2682A /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		18DDC9D92847958E00B2682A /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		18DDC9DA2847958E00B2682A /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		18DDC9DB2847958E00B2682A /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
 		5F7EA3212847406500088674 /* Mini Piano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Piano.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F7EA3242847406500088674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F7EA3262847406500088674 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,10 +51,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18DDC9D42847955600B2682A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				18DDC9D82847958E00B2682A /* A.wav */,
+				18DDC9DA2847958E00B2682A /* B.wav */,
+				18DDC9D92847958E00B2682A /* C.wav */,
+				18DDC9D52847958D00B2682A /* D.wav */,
+				18DDC9DB2847958E00B2682A /* E.wav */,
+				18DDC9D72847958E00B2682A /* F.wav */,
+				18DDC9D62847958E00B2682A /* G.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		5F7EA3182847406500088674 = {
 			isa = PBXGroup;
 			children = (
 				5F7EA3232847406500088674 /* Mini Piano */,
+				18DDC9D42847955600B2682A /* Sounds */,
 				5F7EA3222847406500088674 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,7 +154,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DDC9E22847958E00B2682A /* E.wav in Resources */,
+				18DDC9DF2847958E00B2682A /* A.wav in Resources */,
 				5F7EA3312847406600088674 /* LaunchScreen.storyboard in Resources */,
+				18DDC9DD2847958E00B2682A /* G.wav in Resources */,
+				18DDC9DC2847958E00B2682A /* D.wav in Resources */,
+				18DDC9E02847958E00B2682A /* C.wav in Resources */,
+				18DDC9DE2847958E00B2682A /* F.wav in Resources */,
+				18DDC9E12847958E00B2682A /* B.wav in Resources */,
 				5F7EA32E2847406600088674 /* Assets.xcassets in Resources */,
 				5F7EA32C2847406500088674 /* Main.storyboard in Resources */,
 			);
@@ -216,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
