@@ -10,17 +10,17 @@ import AVFoundation
 class ViewController: UIViewController {
     
     var player: AVAudioPlayer!
-
+    
+    //Mark: - View Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    //Mark: - Actions
     @IBAction func tappedBtn1(_ sender: UIButton) {
         
         playSound(soundName: sender.currentTitle!)
-        
         //Reduces the sender's (the button that got pressed) opacity to half.
         sender.alpha = 0.5
         
@@ -29,33 +29,16 @@ class ViewController: UIViewController {
             //Bring's sender's opacity back up to fully opaque.
             sender.alpha = 1.0
         }
-       
-        
     }
     
-//    func playAudio(soundName: String) {
-//
-//          let url = Bundle.main.url(forResource: soundName, withExtension: "wav")
-//        player = try! AVAudioPlayer(contentsOf: url!)
-//        player.play()
-//
-//
-//      }
-
-    
-    
-    
+    //Mark: - Function music play
     func playSound(soundName: String) {
         let url = Bundle.main.url(forResource: soundName, withExtension: "wav")
-        if url == nil {
-            print("try Again")
-        }else {
-            player = try! AVAudioPlayer(contentsOf: url!)
-            player.play()
-        }
-        
-        
+        player = try! AVAudioPlayer(contentsOf: url!)
+        player.play()
     }
     
 }
+    
+
 
